@@ -1,0 +1,99 @@
+{
+  "sub_category_id": "certified_education",
+  "sub_category_name": "Certified Education",
+  "items": [
+    {
+      "id": "google_digital_marketing",
+      "title": "Google Digital Marketing Course",
+      "description": "Master the basics of digital marketing with a free course accredited by Interactive Advertising Bureau Europe and The Open University.",
+      "url": "https://withgoogle.com",
+      "image_url": "https://unsplash.com",
+      "tags": ["google", "marketing", "certification", "business"]
+    },
+    {
+      "id": "freecodecamp_cert",
+      "title": "freeCodeCamp Certifications",
+      "description": "Learn to code for free with 300-hour comprehensive certifications in Web Design, JavaScript, Python, and Data Science.",
+      "url": "https://freecodecamp.org",
+      "image_url": "https://unsplash.com",
+      "tags": ["coding", "python", "javascript", "web-design"]
+    },
+    {
+      "id": "cisco_cybersecurity",
+      "title": "Cisco Introduction to Cybersecurity",
+      "description": "Explore the world of cybersecurity and learn how to protect your personal digital life and enterprise networks with a free digital badge.",
+      "url": "https://netacad.com",
+      "image_url": "https://unsplash.com",
+      "tags": ["cybersecurity", "cisco", "network", "it"]
+    },
+    {
+      "id": "harvard_cs50",
+      "title": "Harvard CS50 - Computer Science",
+      "description": "Harvard University's famous introduction to the intellectual enterprises of computer science and the art of programming.",
+      "url": "https://harvard.edu",
+      "image_url": "https://unsplash.com",
+      "tags": ["harvard", "cs50", "programming", "code"]
+    },
+
+    {
+      "id": "microsoft_learn_ai",
+      "title": "Microsoft Learn - AI Fundamentals",
+      "description": "Discover the fundamentals of AI, machine learning, and cloud computing through official Microsoft learning paths with free badges.",
+      "url": "https://microsoft.com",
+      "image_url": "https://unsplash.com",
+      "tags": ["microsoft", "ai", "cloud", "azure"]
+    },
+    {
+      "id": "the_pen_university",
+      "title": "Crowdsourcing MOOCs for professional development",
+      "description": "This free course will help you take stock ... ExpandWeek 1. This week you will read about other people's learn... Learner stories. View · Learning journals",
+      "url": "https://www.open.edu/openlearncreate/mod/forumng/view.php?id=136858",
+      "image_url": "https://www.open.edu/openlearn/79/e7/79e708fbe9eeab029d74c659164e4eff1fcb445a?response-content-disposition=inline%3Bfilename%3D\"olc_logo.jpg\"&response-content-type=image%2Fjpeg&Expires=1788808740&Signature=Bzv37~MAR2nuaB8vFfsUzNB3yclt8VaXkyltzTUiTuh0OYhxxJkTf9q~dK~YFw8mnjO0vcidmPXNFAH5nMXcccSP~M61kNN9CmtzdeGRr5e3Hro9TBRA~lTKVFsnaYXHJ-z2Glomx3DSpGLVd4L2yKZcSFrW-acYqQCsJKFrmKrHzEERXusCd0FA6aQdUsMfMresdpOnmrriJblEYsTQyLi4VuwbA~sePjlCUjmSbo6i49YXE11hCtKPu5EQEl~ZEImOM~6scxSFqp9kLCvdUgjpLnGguL2cCYdMsaPaq5wthE9oGokSYgpgM95kuR-azRPc3gzSvJe5mfyakw~tJg__&Key-Pair-Id=K87HJKWMK329B",
+      "tags": ["the pen university", "crowdsourcing"]
+    },
+    {
+      "id": "alumic_mit_edu",
+      "title": "The Best Online Courses of All Time",
+      "description": "The Best Online Courses of All Time ; Free course (160) ; With certificate (236) ; From universities (230).",
+      "url": "https://www.classcentral.com/collection/top-free-online-courses?page=2",
+      "image_url": "https://brand.mit.edu/sites/default/files/styles/tile_narrow/public/2023-08/logo-colors-BG-black.png?itok=Ol3Nb7wg",
+      "tags": ["mit", "onlinecourse", "all education"]
+    },
+
+    {
+      "id": "fiuo",
+      "title": "Florida International University Online - free course!",
+      "description": "Make good use of your time at home—take a free course! · Project Management Essentials · Emergency Preparedness · Peacekeeping Your Home: A Conflict How-To.",
+      "url": "https://fiuonline.fiu.edu/about-us/story-hub/fiu-online-news/make-good-use-of-your-free-time-at-home-take-a-free-course.php",
+      "image_url": "https://brand.fiu.edu/_assets/images/fiu-primary-vertical-logo-lockup.png",
+      "tags": ["fiuo", "floridauniversity", "freecourse", "freematerials", "onlinecourse"]
+    },
+    {
+      "id": "southhills",
+      "title": "South Hills Free Technology Courses",
+      "description": "Each free course also includes extra resources to further your skills and if you complete a course we'll even send you a certificate of completion you can ...",
+      "url": "https://www.southhills.edu/free-course/",
+      "image_url": "https://keystoneacademic-res.cloudinary.com/image/upload/c_pad,w_640,h_304/dpr_1/f_auto/q_auto/v1/element/14/147451_download100.png",
+      "tags": ["southhills", "tecnology", "freecourse", "freematerials", "onlinecourse"]
+    },
+    {
+      "id": "lsu",
+      "title": "LSU Launches Free AI Literacy Essentials Course",
+      "description": "Free course gives beginners the knowledge and skills to navigate AI responsibly in work and everyday life. BATON ROUGE – Today, LSU launched ...",
+      "url": "https://www.lsu.edu/mediacenter/news/2026/08/13-ai-literacy-online.php",
+      "image_url": "https://studyarchitecture.com/wp-content/uploads/lsu-logo-1-2.png",
+      "tags": ["lsu", "launchesfreeai", "ai", "course", "essentialscourse", "louisianastateuniversity"]
+    },
+
+    {
+      "id": "cmu",
+      "title": "Carnegie Mellon University - open-free – OLI",
+      "description": "Open & Free OLI courses are self-paced with no instructor, no tests, no certificate, no credits. ENTER OPEN & FREE COURSE Details Quick View. Anatomy",
+      "url": "https://oli.cmu.edu/course-type/o-f/",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUM9-ku393DOE8nkyaBZwHnndzXySUDfmXZazKBxAG6w&s=10",
+      "tags": ["cmu", "oli", "carnegieuniversity", "course", "essentialscourse"]
+    }
+
+
+  ]
+}

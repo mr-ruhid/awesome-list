@@ -1,50 +1,49 @@
 import 'package:flutter/material.dart';
-import 'screen/textbooks_and_courses/tac_screen.dart';
+import 'certified_education/certified_education.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class TacScreen extends StatelessWidget {
+  const TacScreen({super.key});
 
-  // Açarlarda boşluq YOXDUR, alt xətt (_) istifadə olunub.
-  final List<String> _categoryKeys = const [
-    'textbooks_and_courses',
-    'coding_and_programming',
-    'apps_and_tools',
-    'artificial_intelligence',
-    'design_and_creativity',
-    'enthusiasts',
+  // Subkateqoriyaların siyahısı (hələlik sabit, sonra JSON-dan gələcək)
+  final List<Map<String, String>> _subCategories = const [
+    {
+      'key': 'certified_education',
+      'title': 'Certified Education',
+    },
+    {
+      'key': 'free_courses',
+      'title': 'Free Courses',
+    },
+    {
+      'key': 'university_courses',
+      'title': 'University Courses',
+    },
+    {
+      'key': 'video_tutorials',
+      'title': 'Video Tutorials',
+    },
+    {
+      'key': 'interactive_learning',
+      'title': 'Interactive Learning',
+    },
   ];
-
-  // MÜVƏQQƏTİ TƏRCÜMƏ MAP-İ (FALLBACK).
-  // Bu hissə sonra assets/lang/ fayllarından JSON oxumaqla əvəz olunacaq.
-  // Açarlar (keys) eyni qalacaq.
-  String _translate(String key) {
-    const Map<String, String> _fallbackTranslations = {
-      'textbooks_and_courses': 'Textbooks and Courses',
-      'coding_and_programming': 'Coding and Programming',
-      'apps_and_tools': 'Apps and Tools',
-      'artificial_intelligence': 'Artificial Intelligence',
-      'design_and_creativity': 'Design and Creativity',
-      'enthusiasts': 'Enthusiasts',
-    };
-    return _fallbackTranslations[key] ?? key;
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Knowledge Vault'),
-        centerTitle: true,
+        title: const Text('Textbooks and Courses'),
         backgroundColor: Colors.deepPurple.shade50,
         elevation: 0,
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
         child: ListView.separated(
-          itemCount: _categoryKeys.length,
+          itemCount: _subCategories.length,
           itemBuilder: (context, index) {
-            final String key = _categoryKeys[index];
-            final String displayText = _translate(key);
+            final item = _subCategories[index];
+            final key = item['key'] ?? '';
+            final title = item['title'] ?? '';
 
             return Card(
               elevation: 2,
@@ -57,7 +56,7 @@ class HomeScreen extends StatelessWidget {
                   vertical: 8.0,
                 ),
                 title: Text(
-                  displayText,
+                  title,
                   style: const TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.w500,
@@ -73,7 +72,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 onTap: () {
-                  _navigateToCategory(context, key);
+                  _navigateToSubCategory(context, key);
                 },
               ),
             );
@@ -84,18 +83,18 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  void _navigateToCategory(BuildContext context, String key) {
+  void _navigateToSubCategory(BuildContext context, String key) {
     switch (key) {
-      case 'textbooks_and_courses':
+      case 'certified_education':
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => const TacScreen(),
+            builder: (context) => const CertifiedEducationScreen(),
           ),
         );
         break;
-    // Digər kateqoriyalar üçün əlavə ediləcək
-    // case 'coding_and_programming':
+    // Digər subkateqoriyalar üçün əlavə ediləcək
+    // case 'free_courses':
     //   Navigator.push(...);
     //   break;
       default:
