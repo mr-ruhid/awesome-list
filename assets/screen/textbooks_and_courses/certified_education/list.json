@@ -92,8 +92,55 @@
       "url": "https://oli.cmu.edu/course-type/o-f/",
       "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUM9-ku393DOE8nkyaBZwHnndzXySUDfmXZazKBxAG6w&s=10",
       "tags": ["cmu", "oli", "carnegieuniversity", "course", "essentialscourse"]
+    },
+    {
+      "id": "unlmediahub",
+      "title": "College of Arts and Science NSE Presentation - UNL MediaHub",
+      "description": "It's a free course and it's going to open a couple of weeks before the semester begins. [21:35] It's really designed to help you manage your ...",
+      "url": "https://mediahub.unl.edu/media/24855",
+      "image_url": "https://mediahub.unl.edu/uploads/posters/23445.png?1783540294",
+      "tags": ["unlmediahub", "collegeofartsandscience", "unlmediahubfreecourse", "course", "freecourse"]
+    },
+
+    {
+      "id": "academiaedu",
+      "title": "Academia.edu - (PDF) Video Productions as Learning Resources in Students' ...",
+      "description": "... 22 15 0 812 Total (21.7) (18.5) (16.5) (9.9) (16.5) (3.8) (2.8) (1.6) ... Moodle as a free course management system (CMS) started to be used at many ...",
+      "url": "https://www.academia.edu/23670857/Video_Productions_as_Learning_Resources_in_Students_Knowledge_Building_in_the_Ubiquitous_Society",
+      "image_url": "https://a.academia-assets.com/images/academia-logo-redesign-2015.svg",
+      "tags": ["academiaedu", "acadaemia", "videoproductions", "course", "freecourse","pdf"]
+    },
+    {
+      "id": "bostonuniversity",
+      "title": "Boston University - Dhayana Dallmeier Rojas | SPH",
+      "description": "... free-course/). As an epidemiologist and clinical investigator, I also offer advice on the development of appropriate research questions, the identification ...",
+      "url": "https://www.bu.edu/sph/profile/dhayana-dallmeier-rojas/",
+      "image_url": "https://www.bu.edu/sph/files/2019/05/Dhayana-Dallmeier-Rojas-1024x1024.jpg",
+      "tags": ["bostonuniversity", "dhayanadallmeierrojas", "sph"]
+    },
+    {
+      "id": "pufw",
+      "title": "Purdue University Fort Wayne - Senate Documents",
+      "description": "SD 22-15: Military Experience Policy Approved January 9, 2023; SD 22-16 ... SR 13-26: Degree Map and Free Course Guarantee Policy · SR 13-27: Memorial ...",
+      "url": "https://www.pfw.edu/senate/documents",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Purdue_University_Fort_Wayne_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "tags": ["pufw", "purdueunoversity", "senatedocuments"]
+    },
+    {
+      "id": "khanacademy",
+      "title": "Khanacademy - All free course",
+      "description": "Khan Academy is a nonprofit providing a free, world-class education for anyone, anywhere. Our interactive practice problems, articles, and videos help ...",
+      "url": "https://khanacademy.org",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnrTS3rHjEFiP2nIRnADWlWaxUk789I2Y55kF99o10cg&s=10",
+      "tags": ["khanacademy", "freecourse", "freecertificate", "videotutorials", "onlinevideocourse", "onlinecourse"]
+    },
+    {
+      "id": "khanacademy",
+      "title": "Khanacademy - All free course",
+      "description": "Khan Academy is a nonprofit providing a free, world-class education for anyone, anywhere. Our interactive practice problems, articles, and videos help ...",
+      "url": "https://khanacademy.org",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnrTS3rHjEFiP2nIRnADWlWaxUk789I2Y55kF99o10cg&s=10",
+      "tags": ["khanacademy", "freecourse", "freecertificate", "videotutorials", "onlinevideocourse", "onlinecourse"]
     }
-
-
   ]
 }

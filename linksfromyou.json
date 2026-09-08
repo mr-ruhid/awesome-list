@@ -1,0 +1,31 @@
+AwesomeList: Link Submission Guide
+
+Overview
+AwesomeList is an open collection of useful resources and links across various categories. To ensure continuous growth, anyone can contribute by adding their valuable links to this database. For new information to be properly integrated into the system, the following instructions must be strictly followed in sequential order.
+
+Step 1: Identifying Categories (lib/screen)
+Before adding a new link, you must accurately determine which subcategory within the system the resource belongs to.
+
+The structure and management of all categories and subcategories in the project are located in the "lib/screen" directory.
+1. Access the "lib/screen" directory within the project's source code.
+2. Review the list of existing subcategories.
+3. Note the exact ID (sub_category_id) and official name (sub_category_name) of the subcategory that best fits your resource. You must use these specific values when preparing your JSON data.
+
+Step 2: Preparing Data in JSON Format
+To add a new link to the system, the provided data must be in a machine-readable JSON format. Copy the template below and replace the placeholder values starting with "demo" with the actual information of your resource:
+
+```json
+{
+"sub_category_id": "id_retrieved_from_lib_screen",
+"sub_category_name": "name_retrieved_from_lib_screen",
+"items": [
+{
+"id": "your_resource_unique_id",
+"title": "Name of the resource or website",
+"description": "What is this resource for and why is it useful? Detailed explanation.",
+"url": "[https://your-link.com](https://your-link.com)",
+"image_url": "[https://your-link.com/image.png](https://your-link.com/image.png)",
+"tags": ["tag1", "tag2", "tag3", "tag4"]
+}
+]
+}
